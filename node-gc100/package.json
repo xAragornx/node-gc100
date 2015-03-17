@@ -1,0 +1,10 @@
+{
+  "name": "node-gc100",
+  "version": "0.0.0",
+  "description": "node-gc100",
+  "main": "app.js",
+  "author": {
+    "name": "Sergio",
+    "email": ""
+  }
+}
