@@ -3,14 +3,14 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
-    <Name>node-gc100</Name>
-    <RootNamespace>node-gc100</RootNamespace>
+    <Name>Sample</Name>
+    <RootNamespace>Sample</RootNamespace>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>ec1e98de-268a-4f7a-b2ba-0075d5079e45</ProjectGuid>
+    <ProjectGuid>800d9dc6-f775-48ed-ae11-75eac60a932a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>app.ts</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
@@ -37,18 +37,11 @@
     <Content Include="package.json" />
     <Content Include="README.md" />
     <TypeScriptCompile Include="Scripts\typings\node\node.d.ts" />
-    <TypeScriptCompile Include="Scripts\typings\request.d.ts" />
-    <TypeScriptCompile Include="Scripts\typings\socket.io.d.ts" />
-    <TypeScriptCompile Include="Scripts\typings\underscore.d.ts" />
-    <TypeScriptCompile Include="Scripts\typings\underscore.string.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Scripts\" />
     <Folder Include="Scripts\typings\" />
     <Folder Include="Scripts\typings\node\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="itach.js" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
